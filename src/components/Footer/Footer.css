@@ -1,3 +1,21 @@
-.footer ul li Link svg{
-    fill: #555d63;
+footer {
+    height: 60px;
+    background-color: rgb(236, 228, 226);
+    margin-top: 50px;
+  }
+  
+  footer  ul {
+    display: flex; /* Usamos Flexbox */
+    justify-content: center; /* Centramos los elementos horizontalmente */
+    align-items: center; /* Centramos los elementos verticalmente */
+    height: 100%; /* Definimos la altura del ul al 100% */
+  }
+  
+  /* Estilos adicionales de los iconos */
+  footer svg {
+    margin: 0 10px; /* Agregamos un margen a los iconos para separarlos */
+  }
+
+  footer svg:hover{
+    fill: #363b3f;
 } 

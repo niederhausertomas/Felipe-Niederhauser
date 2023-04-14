@@ -1,47 +1,18 @@
 import React from 'react';
 import './Gallery.css';
 
-const Gallery = () => {
-  return (
-    <div className='container'>
-        <div className='row'>
-            <div className='col-sm-4'>
-                <img src="./images/foto1.jpg" alt="" />
-                <img className='secondIMG' src="./images/foto3.jpg" alt="" />
+const Gallery = ({imagenes}) => {
+    return (
+        <div className="container">
+            <div className="row">
+                {imagenes.map((imagen) => (
+                <div key={imagen.id} className="col-sm-4">
+                    <img className='w-100' src={imagen.image} alt={`Story ${imagen.id}`} />
+                </div>
+                ))}
             </div>
-            <div className='col-sm-4'>
-                <img src="./images/foto2.jpg" alt="" />
-            </div>
-            <div className='col-sm-4'>
-                <img src="./images/foto5.jpg" alt="" />
-                <img className='secondIMG' src="./images/foto1.jpg" alt="" />
-            </div>
-            <div className='col-sm-4'>
-                <img src="./images/foto4.jpg" alt="" />
-            </div>
-            <div className='col-sm-4'>
-                <img src="./images/foto3.jpg" alt="" />
-                <img className='secondIMG' src="./images/foto5.jpg" alt="" />
-            </div>
-            
-            <div className='col-sm-4'>
-                <img src="./images/foto1.jpg" alt="" />
-                <img className='secondIMG' src="./images/foto3.jpg" alt="" />
-            </div>
-            <div className='col-sm-4'>
-                <img src="./images/foto2.jpg" alt="" />
-            </div>
-            <div className='col-sm-4'>
-                <img src="./images/foto5.jpg" alt="" />
-                <img className='secondIMG' src="./images/foto1.jpg" alt="" />
-            </div>
-            <div className='col-sm-4'>
-                <img src="./images/foto4.jpg" alt="" />
-            </div>
-
         </div>
-    </div>
-  )
-}
+      )
+    }
 
-export default Gallery
+export default Gallery;
