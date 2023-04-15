@@ -19,18 +19,18 @@ const Navbar = () => {
                         <Link to='./bio' className="nav-link" aria-current="page">Bio</Link>
                     </li>
                     <li className="nav-item dropdown">
-                        <Link className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Coverage</Link>
+                        <Link className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Coverage</Link>
                         <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><Link to={'/stories'} className="dropdown-item">1-0 19</Link></li>
-                            <li><Link className="dropdown-item" href="#">24 DE MARZO 18</Link></li>
-                            <li><Link className="dropdown-item" href="#">24 DE MARZO 19</Link></li>
+                            <li><Link to="/category/1OCT" className="dropdown-item">1OCT</Link></li>
+                            <li><Link to="/category/24M" className="dropdown-item">24 DE MARZO 18</Link></li>
+                            <li><Link to="/category/24M19" className="dropdown-item" >24 DE MARZO 19</Link></li>
                         </ul>
                     </li>
                     <li className="nav-item dropdown">
                         <Link className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Stories</Link>
                         <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><Link className="dropdown-item" href="#">Castellers</Link></li>
-                            <li><Link className="dropdown-item" href="#">Marcha x Samuel</Link></li>
+                            <li><Link to="/category/diada castellera san jose" className="dropdown-item">Castellers</Link></li>
+                            <li><Link to="/category/SAMUEL" className="dropdown-item" >Marcha x Samuel</Link></li>
                         </ul>
                     </li>
                 </ul>

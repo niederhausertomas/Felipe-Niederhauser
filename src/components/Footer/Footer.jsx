@@ -4,7 +4,7 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-<footer>
+<footer className='bg-light'>
   <ul className='d-flex justify-content-evenly'>
     <Link className='text-decoration-none' to='https://www.instagram.com/fnieder/?hl=es' target="_blank">
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#555d63" className="bi bi-instagram" viewBox="0 0 16 16">
