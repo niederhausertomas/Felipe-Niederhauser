@@ -2,6 +2,7 @@ import React from 'react';
 import { imagenes } from '../../Mock/imagenes';
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
+import './GalleryByCategory.css';
 
 const GalleryByCategory = (props) => {
   const [imagenesFiltradas, setImagenesFiltradas] = useState([]);
