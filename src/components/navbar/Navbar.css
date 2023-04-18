@@ -3,10 +3,24 @@
 }
 
 .felipeNiederhauser{
-    font-size: larger;
-    font-weight: bold;
+    font-size: larger ;
+    font-weight: normal;
 }
+
+.dropdown-menu {
+    background-color: transparent;
+    border: none;
+  }
 
 .dropdown:hover .dropdown-menu{
     display: block;
 }
+
+nav {
+
+    text-shadow: 1px 1px 2px black;
+}
+
+.navbar-nav.ml-auto li.nav-item svg{
+    fill: rgb(167, 163, 163);
+  }

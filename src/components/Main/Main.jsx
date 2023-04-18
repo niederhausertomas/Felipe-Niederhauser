@@ -7,7 +7,6 @@ const Main = () => {
   return (
     <div>
         <Carousel/>
-        <Gallery imagenes={imagenes}/>
     </div>
   )
 }

@@ -17,7 +17,6 @@ function App() {
             <Route path='/stories' element={<Stories/>} />
             <Route path='/category/:categoryName' element={<GalleryByCategory/>} />
           </Routes>
-        <Footer />
     </BrowserRouter>
   );
 }
