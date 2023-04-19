@@ -59,22 +59,29 @@ const Navbar = () => {
                     <li className="nav-item dropdown">
                         <Link className="nav-link dropdown-toggle text-light" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Stories</Link>
                         <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><Link to="/category/diada castellera san jose" className="dropdown-item text-light">Castellers</Link></li>
-                            <li><Link to="/category/SAMUEL" className="dropdown-item text-light" >Marcha x Samuel</Link></li>
+                            <li>
+                                <Link to="/category/diada castellera san jose" className="dropdown-item text-light">Castellers</Link>
+                            </li>
+                            <li>
+                                <Link to="/category/SAMUEL" className="dropdown-item text-light" >Marcha x Samuel</Link>
+                            </li>
+                        </ul>
+                    </li>
+                    <li className="nav-item dropdown">
+                        <Link className="nav-link dropdown-toggle text-light" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"  className="bi bi-envelope" viewBox="0 0 16 16" fill='rgb(167, 163, 163)'>
+                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                            </svg>
+                            </Link>
+                        <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li className="dropdown-item text-light mail2">
+                                felipeniederhauser@gmail.com
+                            </li>
                         </ul>
                     </li>
                 </ul>
 
                 <ul className="navbar-nav ml-auto">
-                    
-                    <li className="nav-item">
-                        <Link to='mailto:felipeniederhauser@gmail.com' className="nav-link" aria-current="page" >
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"  className="bi bi-envelope" viewBox="0 0 16 16">
-                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
-                            </svg>
-                        </Link>
-                    </li>
-
                     <li className="nav-item">
                         <Link to='https://www.instagram.com/fnieder/?hl=es' target="_blank" className="nav-link" aria-current="page" >
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  fill="white" className="bi bi-instagram" viewBox="0 0 16 16">

@@ -1,16 +1,14 @@
-.container {
-    margin-top: 50px;
-  }
-  
-  .col-sm-4 {
-    margin-bottom: 20px;
-  }
-  
-  .col-sm-4 img {
-    width: 100%;
-    height: auto;
-  }
+.my-masonry-grid {
+  display: flex;
+  margin-left: 0px; /* Ajusta el margen izquierdo según tu necesidad */
+  width: auto;
+}
 
-  .secondIMG{
-    margin: 50px 0px 10px 0px;
-  }
+.my-masonry-grid_column {
+  padding-left: 10px; /* Ajusta el padding izquierdo según tu necesidad */
+  background-clip: padding-box;
+}
+
+.my-masonry-grid_item {
+  margin-bottom: 10px; /* Ajusta el margen inferior según tu necesidad */
+}

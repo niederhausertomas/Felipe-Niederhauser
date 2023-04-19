@@ -23,4 +23,12 @@ nav {
 
 .navbar-nav.ml-auto li.nav-item svg{
     fill: rgb(167, 163, 163);
+}
+
+.mail2{
+    font-size: small;
+}
+
+.navbar-nav li.nav-item .dropdown-menu .dropdown-item:hover {
+    background-color: #333;
   }
