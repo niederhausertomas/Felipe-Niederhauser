@@ -42,7 +42,8 @@ const GalleryByCategory = (props) => {
   };
 
   return (
-    <div className="container">
+    <div>
+      <br/><br/><br/><br/>
       <Masonry
         breakpointCols={breakpointColumnsObj}
         className="my-masonry-grid"
