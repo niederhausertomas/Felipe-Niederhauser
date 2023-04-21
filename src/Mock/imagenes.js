@@ -111,123 +111,128 @@ export const imagenes=[
     },
     {
         id: 24,
-        image: '../images/24M19-1.jpg',
-        category: '24M19'
+        image: '../images/24M12.jpg',
+        category: '24M'
     },
     {
         id: 25,
-        image: '../images/24M19-2.jpg',
-        category: '24M19'
+        image: '../images/24M13.jpg',
+        category: '24M'
     },
     {
         id: 26,
-        image: '../images/24M19-3.jpg',
-        category: '24M19'
+        image: '../images/24M14.jpg',
+        category: '24M'
     },
     {
         id: 27,
-        image: '../images/24M19-4.jpg',
-        category: '24M19'
+        image: '../images/24M15.jpg',
+        category: '24M'
     },
     {
         id: 28,
-        image: '../images/24M19-5.jpg',
-        category: '24M19'
+        image: '../images/24M16.jpg',
+        category: '24M'
     },
     {
         id: 29,
-        image: '../images/24M19-6.jpg',
-        category: '24M19'
+        image: '../images/24M17.jpg',
+        category: '24M'
     },
     {
         id: 30,
-        image: '../images/24M19-7.jpg',
-        category: '24M19'
+        image: '../images/24M18.jpg',
+        category: '24M'
     },
     {
         id: 31,
-        image: '../images/24M19-8.jpg',
-        category: '24M19'
+        image: '../images/24M19.jpg',
+        category: '24M'
     },
     {
         id: 32,
-        image: '../images/24M19-9.jpg',
-        category: '24M19'
+        image: '../images/24M20.jpg',
+        category: '24M'
     },
     {
         id: 33,
-        image: '../images/24M19-10.jpg',
-        category: '24M19'
+        image: '../images/24M21.jpg',
+        category: '24M'
     },
     {
         id: 34,
-        image: '../images/24M19-11.jpg',
-        category: '24M19'
+        image: '../images/24M22.jpg',
+        category: '24M'
     },
     {
         id: 35,
-        image: '../images/24M19-12.jpg',
-        category: '24M19'
+        image: '../images/24M23.jpg',
+        category: '24M'
     },
     {
         id: 36,
-        image: '../images/24M19-13.jpg',
-        category: '24M19'
+        image: '../images/24M24.jpg',
+        category: '24M'
     },
     {
         id: 37,
-        image: '../images/24M19-14.jpg',
-        category: '24M19'
+        image: '../images/24M25.jpg',
+        category: '24M'
     },
     {
         id: 38,
-        image: '../images/24M19-15.jpg',
-        category: '24M19'
+        image: '../images/24M26.jpg',
+        category: '24M'
     },
     {
         id: 39,
-        image: '../images/24M19-16.jpg',
-        category: '24M19'
+        image: '../images/24M27.jpg',
+        category: '24M'
     },
     {
         id: 40,
-        image: '../images/24M19-17.jpg',
-        category: '24M19'
+        image: '../images/24M28.jpg',
+        category: '24M'
     },
     {
         id: 41,
-        image: '../images/24M19-18.jpg',
-        category: '24M19'
+        image: '../images/24M29.jpg',
+        category: '24M'
     },
     {
         id: 42,
-        image: '../images/24M19-19.jpg',
-        category: '24M19'
+        image: '../images/24M30.jpg',
+        category: '24M'
     },
     {
         id: 43,
-        image: '../images/24M19-20.jpg',
-        category: '24M19'
+        image: '../images/24M31.jpg',
+        category: '24M'
     },
     {
         id: 44,
-        image: '../images/24M19-21.jpg',
-        category: '24M19'
+        image: '../images/24M32.jpg',
+        category: '24M'
     },
     {
         id: 45,
-        image: '../images/24M19-22.jpg',
-        category: '24M19'
+        image: '../images/24M33.jpg',
+        category: '24M'
     },
     {
         id: 46,
-        image: '../images/24M19-23.jpg',
-        category: '24M19'
+        image: '../images/24M34.jpg',
+        category: '24M'
     },
     {
         id: 47,
-        image: '../images/24M19-24.jpg',
-        category: '24M19'
+        image: '../images/24M35.jpg',
+        category: '24M'
+    },
+    {
+        id: 47.1,
+        image: '../images/24M36.jpg',
+        category: '24M'
     },
     {
         id: 48,
@@ -748,52 +753,52 @@ export const imagenes=[
     {
         id: 151,
         image: '../images/VAGAGRAL-1.jpg',
-        category: 'VAGAGRAL'
+        category: '1OCT'
     },
     {
         id: 152,
         image: '../images/VAGAGRAL-2.jpg',
-        category: 'VAGAGRAL'
+        category: '1OCT'
     },
     {
         id: 153,
         image: '../images/VAGAGRAL-3.jpg',
-        category: 'VAGAGRAL'
+        category: '1OCT'
     },
     {
         id: 154,
         image: '../images/VAGAGRAL-4.jpg',
-        category: 'VAGAGRAL'
+        category: '1OCT'
     },
     {
         id: 155,
         image: '../images/VAGAGRAL-5.jpg',
-        category: 'VAGAGRAL'
+        category: '1OCT'
     },
     {
         id: 156,
         image: '../images/VAGAGRAL-6.jpg',
-        category: 'VAGAGRAL'
+        category: '1OCT'
     },
     {
         id: 157,
         image: '../images/VAGAGRAL-7.jpg',
-        category: 'VAGAGRAL'
+        category: '1OCT'
     },
     {
         id: 158,
         image: '../images/VAGAGRAL-8.jpg',
-        category: 'VAGAGRAL'
+        category: '1OCT'
     },
     {
         id: 159,
         image: '../images/VAGAGRAL-9.jpg',
-        category: 'VAGAGRAL'
+        category: '1OCT'
     },
     {
         id: 160,
         image: '../images/VAGAGRAL-10.jpg',
-        category: 'VAGAGRAL'
+        category: '1OCT'
     },
 
 

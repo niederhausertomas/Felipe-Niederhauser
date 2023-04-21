@@ -1,3 +1,21 @@
-.bioText{
-    padding-left: 100px;
+.bio img{
+    height: 500px;
+    margin-bottom: 50px;
 }
+
+.bio p{
+    margin-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+@media only screen and (max-width: 420px){
+    *{
+        overflow-x: hidden;
+    }
+
+    .bio p{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}    

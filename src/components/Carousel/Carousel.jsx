@@ -23,10 +23,10 @@ const Carousel = () => {
                     <img src="./images/1OCT1.jpg" className="d-block" alt="..." />
                 </div>
                 <div className="carousel-item">
-                    <img src="./images/24M19-13.jpg" className="d-block" alt="..." />
+                    <img src="./images/24M26.jpg" className="d-block" alt="..." />
                 </div>
                 <div className="carousel-item">
-                    <img src="./images/24M19-20.jpg" className="d-block" alt="..." />
+                    <img src="./images/24M32.jpg" className="d-block" alt="..." />
                 </div>
                 <div className="carousel-item">
                     <img src="./images/CLIMATESTRIKE-1.jpg" className="d-block" alt="..." />

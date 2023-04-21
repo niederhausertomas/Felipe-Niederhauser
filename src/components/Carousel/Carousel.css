@@ -6,5 +6,5 @@
 
 .carousel-item.active {
   opacity: 1;
-  transition: opacity 2s; /* Ajusta el valor del tiempo de transición (en segundos) para hacer la animación más lenta */
+  transition: opacity 2s;
 }

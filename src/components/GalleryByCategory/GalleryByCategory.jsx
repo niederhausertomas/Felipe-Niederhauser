@@ -44,6 +44,27 @@ const GalleryByCategory = (props) => {
   return (
     <div>
       <br/><br/><br/><br/>
+      {categoryName === "diada castellera san jose" && (
+        <div>
+          <h2 style={{textAlign: "center"}}>LA UNIÓN HACE LA FUERZA</h2>
+          <br/>
+          <p className='container'>El día diecinueve de marzo del dos mil veintidós, el barrio del Pi celebró con una fiesta Catellera (castellers de Barcelona y de Cerdanyola) su fiesta mayor “Sant Josep Oriol”.
+          El relato fotográfico propone desfragmentar temporalmente el proceso de construcción de un Castell, en donde a través de la dirección a viva voz, el entrelazado de manos y la superposición de pies sobre espaldas, conjugan cuerpos para erigir una gran torre. 
+          Narrarlo con fotografia analogica en blanco negro evoca la sensación de atemporalidad, nos recuerda que la unión de las personas siempre es un momento historico.
+          </p>
+          <br/>
+        </div>
+      )}
+      {categoryName === "SAMUEL" && (
+        <div>
+          <h2 style={{textAlign: "center"}}>SI NO VES EL PROBLEMA</h2>
+          <br/>
+          <p className='container'>Durante el año dos mil veintiuno se registraron numerosas denuncias y ataques al colectivo LGTBIQ+ en todo el territorio español, que alentados por un marcado discurso de odio proveniente de partidos de ultraderecha, culminaron en el asesinato de Samuel Luiz en A Coruña. Aquel hecho desencadenó manifestaciones en numerosas ciudades, como la ocurrida en Barcelona el lunes 5 de julio. 
+          Mientras el gran grupo de personas circulaba bajo el calor del verano pandémico y al canto de “vecina, despierta, nos matan en tu puerta”, una mirada atenta les escoltaba.
+          </p>
+          <br/><br/>
+        </div>
+      )}
       <Masonry
         breakpointCols={breakpointColumnsObj}
         className="my-masonry-grid"

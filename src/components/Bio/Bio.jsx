@@ -5,8 +5,8 @@ const Bio = () => {
   return (
     <div className='container bio'>
         <br/><br/><br/><br/>
-        <div className='d-flex justify-content-evenly'>
-            <img className='w-25' src="./images/IMG_2150.jpg" alt="Felipe Niederhauser"/>
+        <div className='d-flex flex-column flex-sm-row justify-content-evenly'>
+            <img src="./images/IMG_2150.jpg" alt="Felipe Niederhauser"/>
             <div className='d-flex align-items-center '>
               <p className='container fs-5 lh-lg bioText'>
               Soy Felipe Niederhauser, comunicador de formación y fotoperiodista freelance. 

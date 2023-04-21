@@ -22,11 +22,19 @@ nav {
 }
 
 .navbar-nav.ml-auto li.nav-item svg{
-    fill: rgb(167, 163, 163);
+    fill: rgb(255, 252, 252);
+    filter: drop-shadow(1px 1px 2px black);
+}
+
+.iconMail{
+    fill: rgb(255, 252, 252);
+    filter: drop-shadow(1px 1px 2px black);
 }
 
 .mail2{
     font-size: small;
+    margin-left: -50px;
+    padding-left: 0;
 }
 
 .navbar-nav li.nav-item .dropdown-menu .dropdown-item:hover {
