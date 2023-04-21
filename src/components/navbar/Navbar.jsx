@@ -4,11 +4,11 @@ import './Navbar.css';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg text-white fixed-top">
+    <nav className="navbar navbar-expand-lg navbar-light  text-white fixed-top">
         <div className="container-fluid">
             <Link to={'./'} className="navbar-brand felipeNiederhauser text-light">Felipe Niederhauser</Link>
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon navbar-toggler-icon-black"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
