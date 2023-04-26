@@ -8,46 +8,46 @@ const Navbar = () => {
     const isHomePage = location.pathname === '/';
     if (isHomePage){
         return (
-            <nav className="navbar navbar-expand-lg navbar-light fixed-top">
-                <div className="container-fluid">
-                    <Link to={'/'} className="navbar-brand felipeNiederhauser text-light" role="button">Felipe Niederhauser</Link>
+            <nav className="navbar navbar-expand-lg navbar-light fixed-top gradient-top">
+                <div className="mx-3 container-fluid">
+                    <Link to={'/'} className="navbar-brand felipeNiederhauser text-white" role="button">Felipe Niederhauser</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon navbar-toggler-icon-black"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li className="nav-item dropdown">
-                                <Link className="nav-link dropdown-toggle text-light" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">COBERTURAS</Link>
+                                <Link className="nav-link dropdown-toggle text-white" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">COBERTURAS</Link>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li>
-                                        <Link to="/category/24M" className="dropdown-item text-light" >DÍA DE LA MEMORIA, VERDAD Y JUSTICIA</Link>
+                                        <Link to="/category/24M" className="dropdown-item text-light fondo1" >DÍA DE LA MEMORIA, VERDAD Y JUSTICIA</Link>
                                     </li>
                                     <li>
-                                        <Link to="/category/RURAL" className="dropdown-item text-light">INAUGURACIÓN DE LA EXPOSICIÓN RURAL ARGENTINA</Link>
+                                        <Link to="/category/RURAL" className="dropdown-item text-light fondo1">INAUGURACIÓN DE LA EXPOSICIÓN RURAL ARGENTINA</Link>
                                     </li>
                                     <li>
-                                        <Link to="/category/DEFUNI" className="dropdown-item text-light">MARCHA EN DEFENSA DE LA UNIVERSIDAD PÚBLICA</Link>
+                                        <Link to="/category/DEFUNI" className="dropdown-item text-light fondo1">MARCHA EN DEFENSA DE LA UNIVERSIDAD PÚBLICA</Link>
                                     </li>
                                     <li>
-                                        <Link to="/category/DIADA19" className="dropdown-item text-light">DIADA NACIONAL DE CATALUNYA</Link>
+                                        <Link to="/category/DIADA19" className="dropdown-item text-light fondo1">DIADA NACIONAL DE CATALUNYA</Link>
                                     </li>
                                     <li>
-                                        <Link to="/category/CLIMATESTRIKE" className="dropdown-item text-light">GLOBAL CLIMATE STRIKE</Link>
+                                        <Link to="/category/CLIMATESTRIKE" className="dropdown-item text-light fondo1">GLOBAL CLIMATE STRIKE</Link>
                                     </li>
                                     <li>
-                                        <Link to="/category/1OCT" className="dropdown-item text-light">PROTESTAS DE OCTUBRE EN BARCELONA</Link>
+                                        <Link to="/category/1OCT" className="dropdown-item text-light fondo1">PROTESTAS DE OCTUBRE EN BARCELONA</Link>
                                     </li>
                                     <li>
-                                        <Link to="/category/SAMUEL2" className="dropdown-item text-light">MANIFESTACIÓN POR SAMUEL LUIZ</Link>
+                                        <Link to="/category/SAMUEL2" className="dropdown-item text-light fondo1">MANIFESTACIÓN POR SAMUEL LUIZ</Link>
                                     </li>
                                     <li>
-                                        <Link to="/category/NOAMPLIACIO" className="dropdown-item text-light">NO A L'AMPLIACIÓ</Link>
+                                        <Link to="/category/NOAMPLIACIO" className="dropdown-item text-light fondo1">NO A L'AMPLIACIÓ</Link>
                                     </li>
                                     <li>
-                                        <Link to="/category/hispanidad" className="dropdown-item text-light">DÍA DE LA HISPANIDAD</Link>
+                                        <Link to="/category/hispanidad" className="dropdown-item text-light fondo1">DÍA DE LA HISPANIDAD</Link>
                                     </li>
                                     <li>
-                                        <Link to="/category/MASACREMELILLA" className="dropdown-item text-light">MANIFESTACIÓN POR LA MASACRE MELILLA</Link>
+                                        <Link to="/category/MASACREMELILLA" className="dropdown-item text-light fondo1">MANIFESTACIÓN POR LA MASACRE MELILLA</Link>
                                     </li>
                                 </ul>
                             </li>
@@ -55,21 +55,21 @@ const Navbar = () => {
                                 <Link className="nav-link dropdown-toggle text-light"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">HISTORIAS</Link>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li>
-                                        <Link to="/category/diada castellera san jose" className="dropdown-item text-light">LA UNIÓN HACE LA FUERZA</Link>
+                                        <Link to="/category/diada castellera san jose" className="dropdown-item text-light fondo1">LA UNIÓN HACE LA FUERZA</Link>
                                     </li>
                                     <li>
-                                        <Link to="/category/SAMUEL" className="dropdown-item text-light">SI NO VES EL PROBLEMA</Link>
+                                        <Link to="/category/SAMUEL" className="dropdown-item text-light fondo1">SI NO VES EL PROBLEMA</Link>
                                     </li>
                                 </ul>
                             </li>
                             <li className="nav-item">
                                 <Link to='./bio' className="nav-link text-light" aria-current="page">BIO</Link>
                             </li>
+                        </ul>
+                        <ul className="navbar-nav ml-auto">
                             <li className="nav-item nav-link text-light">
                                 felipeniederhauser@gmail.com  |
                             </li>
-                        </ul>
-                        <ul className="navbar-nav ml-auto">
                             <li className="nav-item">
                                 <Link to='https://www.instagram.com/fnieder/?hl=es' target="_blank" className="nav-link" aria-current="page" >
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  fill="white" className="bi bi-instagram" viewBox="0 0 16 16">
@@ -95,16 +95,12 @@ const Navbar = () => {
                 </div>
             </div>
             </nav>
-          )
-
-
-
-
+        )
     }
     if (!isHomePage){
         return (
-            <nav className="navbar navbar-expand-lg navbar-light fixed-top">
-                <div className="container-fluid">
+            <nav className="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+                <div className="mx-3 container-fluid">
                     <Link to={'/'} className="navbar-brand felipeNiederhauser text-black" role="button">Felipe Niederhauser</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon navbar-toggler-icon-black"></span>
@@ -160,11 +156,11 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <Link to='./bio' className="nav-link text-black" aria-current="page">BIO</Link>
                             </li>
+                        </ul>
+                        <ul className="navbar-nav ml-auto">
                             <li className="nav-item nav-link text-black">
                                 felipeniederhauser@gmail.com  |
                             </li>
-                        </ul>
-                        <ul className="navbar-nav ml-auto">
                             <li className="nav-item">
                                 <Link to='https://www.instagram.com/fnieder/?hl=es' target="_blank" className="nav-link" aria-current="page" >
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  fill="black" className="bi bi-instagram" viewBox="0 0 16 16">

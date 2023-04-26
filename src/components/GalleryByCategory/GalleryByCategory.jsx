@@ -65,17 +65,19 @@ const GalleryByCategory = (props) => {
           <br/><br/>
         </div>
       )}
-      <Masonry
-        breakpointCols={breakpointColumnsObj}
-        className="my-masonry-grid"
-        columnClassName="my-masonry-grid_column"
-      >
-        {imagenesFiltradas.map((imagen, index) => (
-          <div key={imagen.id} className="my-masonry-grid_item $enable-button-pointers" onClick={() => openCarousel(index)}>
-            <img className='w-100' src={imagen.image} alt={`Story ${imagen.id}`} />
-          </div>
-        ))}
-      </Masonry>
+      <div className='mx-4'>
+        <Masonry
+          breakpointCols={breakpointColumnsObj}
+          className="my-masonry-grid"
+          columnClassName="my-masonry-grid_column"
+        >
+          {imagenesFiltradas.map((imagen, index) => (
+            <div key={imagen.id} className="my-masonry-grid_item $enable-button-pointers" onClick={() => openCarousel(index)}>
+              <img className='w-100' src={imagen.image} alt={`Story ${imagen.id}`} />
+            </div>
+          ))}
+        </Masonry>
+      </div>
 
       {showCarousel && (
         <div className="carousel-container">
