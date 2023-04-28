@@ -7,8 +7,18 @@
     font-weight: normal;
 }
 
-.dropdown-menu {
-    background-color: transparent;
+.nav-link.active {
+    text-decoration: underline;
+    color: red;
+  }
+
+.dropdown-menu1 {
+    background-color: rgba(0, 0, 0, 0.467);
+    border: none;
+}
+
+.dropdown-menu2 {
+    background-color: rgba(251, 249, 249, 0.592);
     border: none;
 }
 
@@ -16,12 +26,8 @@
     display: block;
 }
 
-.fondo1:hover {
+.background1:hover {
     background-color: #33333381;
-}
-
-.fondo2:hover{
-    background-color: rgba(255, 255, 255, 0.547);
 }
 
 .navbar-toggler{
@@ -36,6 +42,10 @@ color: black;
     left: 0;
     right: 0;
     z-index: 9999; 
+}
+
+@media (min-width: 992px) {
+    .navbar-navMargin {
+      margin-right: 100px;
+    }
   }
-
-

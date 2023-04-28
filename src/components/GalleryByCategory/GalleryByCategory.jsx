@@ -6,6 +6,8 @@ import './GalleryByCategory.css';
 import Masonry from 'react-masonry-css';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import { BrowserView } from 'react-device-detect';
+
 
 const GalleryByCategory = (props) => {
   const [imagenesFiltradas, setImagenesFiltradas] = useState([]);
@@ -21,10 +23,12 @@ const GalleryByCategory = (props) => {
   const openCarousel = (index) => {
     setCurrentImageIndex(index);
     setShowCarousel(true);
+    document.body.style.overflow = 'hidden';
   }
 
   const closeCarousel = () => {
     setShowCarousel(false);
+    document.body.style.overflow = 'auto';
   }
 
   const handlePrev = () => {
@@ -42,6 +46,7 @@ const GalleryByCategory = (props) => {
   };
 
   return (
+
     <div>
       <br/><br/><br/><br/>
       {categoryName === "diada castellera san jose" && (
@@ -72,19 +77,24 @@ const GalleryByCategory = (props) => {
           columnClassName="my-masonry-grid_column"
         >
           {imagenesFiltradas.map((imagen, index) => (
-            <div key={imagen.id} className="my-masonry-grid_item $enable-button-pointers" onClick={() => openCarousel(index)}>
+            <div key={imagen.id} className="my-masonry-grid_item enable-button-pointers cursor-pointer" onClick={() => openCarousel(index)}>
               <img className='w-100' src={imagen.image} alt={`Story ${imagen.id}`} />
             </div>
           ))}
         </Masonry>
       </div>
 
+      <BrowserView>
       {showCarousel && (
+        <div className= 'dark-overlay'>
         <div className="carousel-container">
           <Carousel
             selectedItem={currentImageIndex}
             showStatus={false}
             showThumbs={false}
+
+            showIndicators={false}
+
             showArrows={true}
             dynamicHeight={true}
             infiniteLoop={true}
@@ -95,10 +105,7 @@ const GalleryByCategory = (props) => {
                 <button
                   type="button"
                   className="carousel-custom-arrow carousel-custom-arrow-left"
-                  onClick={onClickHandler}
-                  >
-                  <i className="fas fa-chevron-left"></i>
-                </button>
+                  onClick={onClickHandler}> {'<'}   </button>
               )
             }
             renderArrowNext={(onClickHandler, hasNext, label) =>
@@ -106,23 +113,23 @@ const GalleryByCategory = (props) => {
                 <button
                   type="button"
                   className="carousel-custom-arrow carousel-custom-arrow-right"
-                  onClick={onClickHandler}
-                >
-                  <i className="fas fa-chevron-right"></i>
-                </button>
+                  onClick={onClickHandler}> {'>'}   </button>
               )
             }
             onClose={closeCarousel}
           >
             {imagenesFiltradas.map((imagen) => (
               <div key={imagen.id}>
-                <img src={imagen.image} alt={`Story ${imagen.id}`} />
+                <img style={{ maxHeight: '140vh', maxWidth: '110vh'}} src={imagen.image} alt={`Story ${imagen.id}`} />
               </div>
             ))}
+
           </Carousel>
-          <div className="carousel-overlay" onClick={closeCarousel}></div>
+            <button className="carousel-overlay" onClick={closeCarousel}>X</button>
+        </div>
         </div>
       )}
+      </BrowserView>
     </div>
   );
 };

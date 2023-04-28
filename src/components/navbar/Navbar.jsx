@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, NavLink } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -15,50 +15,50 @@ const Navbar = () => {
                         <span className="navbar-toggler-icon navbar-toggler-icon-black"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <ul className="navbar-nav navbar-navMargin ms-auto mb-2 mb-lg-0">
                             <li className="nav-item dropdown">
                                 <Link className="nav-link dropdown-toggle text-white" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">COBERTURAS</Link>
-                                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <ul className="dropdown-menu dropdown-menu1" aria-labelledby="navbarDropdown">
                                     <li>
-                                        <Link to="/category/24M" className="dropdown-item text-light fondo1" >DÍA DE LA MEMORIA, VERDAD Y JUSTICIA</Link>
+                                        <Link to="/category/24M" className="dropdown-item text-light background1" >DÍA DE LA MEMORIA, VERDAD Y JUSTICIA</Link>
                                     </li>
                                     <li>
-                                        <Link to="/category/RURAL" className="dropdown-item text-light fondo1">INAUGURACIÓN DE LA EXPOSICIÓN RURAL ARGENTINA</Link>
+                                        <Link to="/category/RURAL" className="dropdown-item text-light background1">INAUGURACIÓN DE LA EXPOSICIÓN RURAL ARGENTINA</Link>
                                     </li>
                                     <li>
-                                        <Link to="/category/DEFUNI" className="dropdown-item text-light fondo1">MARCHA EN DEFENSA DE LA UNIVERSIDAD PÚBLICA</Link>
+                                        <Link to="/category/DEFUNI" className="dropdown-item text-light background1">MARCHA EN DEFENSA DE LA UNIVERSIDAD PÚBLICA</Link>
                                     </li>
                                     <li>
-                                        <Link to="/category/DIADA19" className="dropdown-item text-light fondo1">DIADA NACIONAL DE CATALUNYA</Link>
+                                        <Link to="/category/DIADA19" className="dropdown-item text-light background1">DIADA NACIONAL DE CATALUNYA</Link>
                                     </li>
                                     <li>
-                                        <Link to="/category/CLIMATESTRIKE" className="dropdown-item text-light fondo1">GLOBAL CLIMATE STRIKE</Link>
+                                        <Link to="/category/CLIMATESTRIKE" className="dropdown-item text-light background1">GLOBAL CLIMATE STRIKE</Link>
                                     </li>
                                     <li>
-                                        <Link to="/category/1OCT" className="dropdown-item text-light fondo1">PROTESTAS DE OCTUBRE EN BARCELONA</Link>
+                                        <Link to="/category/1OCT" className="dropdown-item text-light background1">PROTESTAS DE OCTUBRE EN BARCELONA</Link>
                                     </li>
                                     <li>
-                                        <Link to="/category/SAMUEL2" className="dropdown-item text-light fondo1">MANIFESTACIÓN POR SAMUEL LUIZ</Link>
+                                        <Link to="/category/SAMUEL2" className="dropdown-item text-light background1">MANIFESTACIÓN POR SAMUEL LUIZ</Link>
                                     </li>
                                     <li>
-                                        <Link to="/category/NOAMPLIACIO" className="dropdown-item text-light fondo1">NO A L'AMPLIACIÓ</Link>
+                                        <Link to="/category/NOAMPLIACIO" className="dropdown-item text-light background1">NO A L'AMPLIACIÓ</Link>
                                     </li>
                                     <li>
-                                        <Link to="/category/hispanidad" className="dropdown-item text-light fondo1">DÍA DE LA HISPANIDAD</Link>
+                                        <Link to="/category/hispanidad" className="dropdown-item text-light background1">DÍA DE LA HISPANIDAD</Link>
                                     </li>
                                     <li>
-                                        <Link to="/category/MASACREMELILLA" className="dropdown-item text-light fondo1">MANIFESTACIÓN POR LA MASACRE MELILLA</Link>
+                                        <Link to="/category/MASACREMELILLA" className="dropdown-item text-light background1">MANIFESTACIÓN POR LA MASACRE MELILLA</Link>
                                     </li>
                                 </ul>
                             </li>
                             <li className="nav-item dropdown">
                                 <Link className="nav-link dropdown-toggle text-light"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">HISTORIAS</Link>
-                                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <ul className="dropdown-menu dropdown-menu1" aria-labelledby="navbarDropdown">
                                     <li>
-                                        <Link to="/category/diada castellera san jose" className="dropdown-item text-light fondo1">LA UNIÓN HACE LA FUERZA</Link>
+                                        <Link to="/category/diada castellera san jose" className="dropdown-item text-light background1">LA UNIÓN HACE LA FUERZA</Link>
                                     </li>
                                     <li>
-                                        <Link to="/category/SAMUEL" className="dropdown-item text-light fondo1">SI NO VES EL PROBLEMA</Link>
+                                        <Link to="/category/SAMUEL" className="dropdown-item text-light background1">SI NO VES EL PROBLEMA</Link>
                                     </li>
                                 </ul>
                             </li>
@@ -106,50 +106,50 @@ const Navbar = () => {
                         <span className="navbar-toggler-icon navbar-toggler-icon-black"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <ul className="navbar-nav navbar-navMargin ms-auto mb-2 mb-lg-0">
                             <li className="nav-item dropdown">
                                 <Link className="nav-link dropdown-toggle text-black" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">COBERTURAS</Link>
-                                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <ul className="dropdown-menu dropdown-menu2" aria-labelledby="navbarDropdown">
                                     <li>
-                                        <Link to="/category/24M" className="dropdown-item text-black fondo2" >DÍA DE LA MEMORIA, VERDAD Y JUSTICIA</Link>
+                                        <Link to="/category/24M" className="dropdown-item text-black background1" >DÍA DE LA MEMORIA, VERDAD Y JUSTICIA</Link>
                                     </li>
                                     <li>
-                                        <Link to="/category/RURAL" className="dropdown-item text-black fondo2">INAUGURACIÓN DE LA EXPOSICIÓN RURAL ARGENTINA</Link>
+                                        <Link to="/category/RURAL" className="dropdown-item text-black background1">INAUGURACIÓN DE LA EXPOSICIÓN RURAL ARGENTINA</Link>
                                     </li>
                                     <li>
-                                        <Link to="/category/DEFUNI" className="dropdown-item text-black fondo2">MARCHA EN DEFENSA DE LA UNIVERSIDAD PÚBLICA</Link>
+                                        <Link to="/category/DEFUNI" className="dropdown-item text-black background1">MARCHA EN DEFENSA DE LA UNIVERSIDAD PÚBLICA</Link>
                                     </li>
                                     <li>
-                                        <Link to="/category/DIADA19" className="dropdown-item text-black fondo2">DIADA NACIONAL DE CATALUNYA</Link>
+                                        <Link to="/category/DIADA19" className="dropdown-item text-black background1">DIADA NACIONAL DE CATALUNYA</Link>
                                     </li>
                                     <li>
-                                        <Link to="/category/CLIMATESTRIKE" className="dropdown-item text-black fondo2">GLOBAL CLIMATE STRIKE</Link>
+                                        <Link to="/category/CLIMATESTRIKE" className="dropdown-item text-black background1">GLOBAL CLIMATE STRIKE</Link>
                                     </li>
                                     <li>
-                                        <Link to="/category/1OCT" className="dropdown-item text-black fondo2">PROTESTAS DE OCTUBRE EN BARCELONA</Link>
+                                        <Link to="/category/1OCT" className="dropdown-item text-black background1">PROTESTAS DE OCTUBRE EN BARCELONA</Link>
                                     </li>
                                     <li>
-                                        <Link to="/category/SAMUEL2" className="dropdown-item text-black fondo2">MANIFESTACIÓN POR SAMUEL LUIZ</Link>
+                                        <Link to="/category/SAMUEL2" className="dropdown-item text-black background1">MANIFESTACIÓN POR SAMUEL LUIZ</Link>
                                     </li>
                                     <li>
-                                        <Link to="/category/NOAMPLIACIO" className="dropdown-item text-black fondo2">NO A L'AMPLIACIÓ</Link>
+                                        <Link to="/category/NOAMPLIACIO" className="dropdown-item text-black background1">NO A L'AMPLIACIÓ</Link>
                                     </li>
                                     <li>
-                                        <Link to="/category/hispanidad" className="dropdown-item text-black fondo2">DÍA DE LA HISPANIDAD</Link>
+                                        <Link to="/category/hispanidad" className="dropdown-item text-black background1">DÍA DE LA HISPANIDAD</Link>
                                     </li>
                                     <li>
-                                        <Link to="/category/MASACREMELILLA" className="dropdown-item text-black fondo2">MANIFESTACIÓN POR LA MASACRE MELILLA</Link>
+                                        <Link to="/category/MASACREMELILLA" className="dropdown-item text-black background1">MANIFESTACIÓN POR LA MASACRE MELILLA</Link>
                                     </li>
                                 </ul>
                             </li>
                             <li className="nav-item dropdown">
                                 <Link className="nav-link dropdown-toggle text-black"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">HISTORIAS</Link>
-                                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <ul className="dropdown-menu dropdown-menu2" aria-labelledby="navbarDropdown">
                                     <li>
-                                        <Link to="/category/diada castellera san jose" className="dropdown-item text-black fondo2">LA UNIÓN HACE LA FUERZA</Link>
+                                        <Link to="/category/diada castellera san jose" className="dropdown-item text-black background1">LA UNIÓN HACE LA FUERZA</Link>
                                     </li>
                                     <li>
-                                        <Link to="/category/SAMUEL" className="dropdown-item text-black fondo2">SI NO VES EL PROBLEMA</Link>
+                                        <Link to="/category/SAMUEL" className="dropdown-item text-black background1">SI NO VES EL PROBLEMA</Link>
                                     </li>
                                 </ul>
                             </li>
